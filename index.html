@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Meta tags: informações sobre a página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio profissional com projetos e habilidades">
+    <title>Portfólio - Desenvolvedor Paulo</title>
+    
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <!-- ========== NAVEGAÇÃO ========== -->
+    <!-- Barra de navegação fixa no topo -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <!-- Logo/Título -->
+                <div class="logo">Portfolio</div>
+                
+                <!-- Menu de navegação -->
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#projects" class="nav-link">Projetos</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+                
+                <!-- Botão de menu mobile (hambúrguer) -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== SEÇÃO HERO (INÍCIO) ========== -->
+    <!-- Seção principal com apresentação -->
+    <section id="home" class="hero">
+        <!-- Fundo animado com gradientes -->
+        <div class="animated-bg"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1>Olá, sou <span class="highlight">Desenvolvedor Paulo</span></h1>
+                <p>Criando soluções web modernas e eficientes</p>
+                
+                <!-- Botões de ação -->
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contact" class="btn btn-secondary">Contato</a>
+                </div>
+                
+                <!-- Ícones de redes sociais -->
+                <div class="social-links">
+                    <a href="#" class="social-icon" title="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" title="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" title="Email">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEÇÃO SOBRE ========== -->
+    <!-- Informações profissionais, habilidades e experiências -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            
+            <div class="about-content">
+                <!-- Foto/Avatar -->
+                <div class="about-photo">
+                    <div class="avatar">
+                        <img src="./img/minha foto.jpeg" alt="Minha Foto">
+                    </div>
+                </div>
+                
+                <!-- Informações -->
+                <div class="about-info">
+                    <h3>Desenvolvedor Full Stack</h3>
+                    <p>
+                        Sou um Estudante de Programação e um desenvolvedor apaixonado por criar soluções web inovadoras. 
+                        Em busca da primeira experiencia no mercado de tecnologias modernas, buscando aprender e trabalha para entregar projetos de qualidade.
+                    </p>
+                    
+                    <!-- Habilidades -->
+                    <div class="skills-section">
+                        <h4>Habilidades</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">XML</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Experiências -->
+                    <div class="experience-section">
+                       
+                        </div>
+                        <div class="experience-item">
+                            <h5>Desenvolvedor Frontend</h5>
+                            <p class="date">2023 - 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEÇÃO PROJETOS ========== -->
+    <!-- Galeria de projetos com cards animados -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            
+            <!-- Grid de projetos (3 colunas) -->
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-image">📆</div>
+                    <div class="project-content">
+                        <h3>Projeto 1</h3>
+                        <h4>AGENDA INTELIGENTE DO DIA A DIA </DIAlog></h4>
+                        <p>Na correria do dia a dia sempre esquecemos de alguma coisa, essa agenda te lembra oque ja foi feito e oque ainda esta para ser feito de fomas simple s e intuitivas.</p>
+                        <div class="project-tags">
+                           <span class="tag">Ferreamentas Web em geral</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn">GitHub</a>
+                            <a href="https://dailyremind-mwkyr8h7.manus.space/" class="link-btn link-secondary">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3>Projeto 2</h3>
+                        <h4>EXCEL DASHBOARD</h4>
+                        <p>Para facilitar as analises de dados de planilhas longas e complicadas que tal simplificare encurtar todo o trabalho de comprara dados essa ferramenta esta pronta para ajudar!</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn">GitHub</a>
+                            <a href="https://exceldash-lvq6u2fr.manus.space/" class="link-btn link-secondary">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="project-card">
+                    <div class="project-image">🚀</div>
+                    <div class="project-content">
+                        <h3>Projeto 3</h3>
+                        <p>Descrição do seu projeto. Mostre o impacto e as métricas de sucesso do projeto.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn">GitHub</a>
+                            <a href="D:\Downloads\pet-adoption-simple\index.html  " class="link-btn link-secondary">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEÇÃO CONTATO ========== -->
+    <!-- Formulário de contato e informações -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            
+            <div class="contact-content">
+                <!-- Formulário -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="name" 
+                            placeholder="Seu Nome" 
+                            required
+                        >
+                    </div>
+                    
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            id="email" 
+                            placeholder="Seu Email" 
+                            required
+                        >
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea 
+                            id="message" 
+                            placeholder="Sua Mensagem" 
+                            rows="5" 
+                            required
+                        ></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    
+                    <!-- Mensagem de sucesso (oculta por padrão) -->
+                    <div class="success-message" id="successMessage">
+                        ✓ Mensagem enviada com sucesso!
+                    </div>
+                </form>
+
+                <!-- Informações de contato -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:seu.email@exemplo.com">paulo.robertodearaujo2005@gmail.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Telefone</h4>
+                        <p><a href="tel:+5511999999999">+55 (11) 93151.8676</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Localização</h4>
+                        <p>São Paulo, Brasil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== RODAPÉ ========== -->
+    <!-- Informações finais da página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="./script/script.js"></script>
+</body>
+</html>
