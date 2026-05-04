@@ -89,7 +89,7 @@
                 <!-- Foto/Avatar -->
                 <div class="about-photo">
                     <div class="avatar">
-                       <img src="./img/minha-foto.jpeg " alt="Minha Foto">
+                       <img src="./img/minha-foto.jpeg" alt="Minha Foto">
                     </div>
                 </div>
                 
@@ -98,9 +98,9 @@
                     <h3>Desenvolvedor Full Stack</h3>
                     <p>
                         Sou um Estudante de Programação e um desenvolvedor apaixonado por criar soluções web inovadoras. 
-                        Em busca da primeira experiencia no mercado de tecnologias modernas, buscando aprender e trabalha para entregar projetos de qualidade.
+                        Em busca da primeira experiência no mercado de tecnologias modernas, buscando aprender e trabalhar para entregar projetos de qualidade.
                     </p>
-                    <!--teste da auto--> 
+                    
                     <!-- Habilidades -->
                     <div class="skills-section">
                         <h4>Habilidades</h4>
@@ -114,6 +114,159 @@
                             <span class="skill-tag">Git</span>
                         </div>
                     </div>
+                    
+                    <!-- Experiências -->
+                    <div class="experience-section">
+                        <h4>Experiências</h4>
+                        <div class="experience-item">
+                            <h5>Desenvolvedor Frontend</h5>
+                            <p class="date">2023 - 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEÇÃO PROJETOS ========== -->
+    <!-- Galeria de projetos com cards animados -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            
+            <!-- Grid de projetos (3 colunas) -->
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-image">📆</div>
+                    <div class="project-content">
+                        <h3>Projeto 1</h3>
+                        <h4>AGENDA INTELIGENTE DO DIA A DIA</h4>
+                        <p>Na correria do dia a dia sempre esquecemos de alguma coisa, essa agenda te lembra o que já foi feito e o que ainda está para ser feito de formas simples e intuitivas.</p>
+                        <div class="project-tags">
+                           <span class="tag">Ferramentas Web em geral</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Paulo2589s" class="link-btn">GitHub</a>
+                            <a href="https://dailyremind-mwkyr8h7.manus.space/" class="link-btn link-secondary">Visitar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3>Projeto 2</h3>
+                        <h4>EXCEL DASHBOARD</h4>
+                        <p>Para facilitar as análises de dados de planilhas longas e complicadas, que tal simplificar e encurtar todo o trabalho de comparar dados? Esta ferramenta está pronta para ajudar!</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Paulo2589s" class="link-btn">GitHub</a>
+                            <a href="https://exceldash-lvq6u2fr.manus.space/" class="link-btn link-secondary">Visitar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="project-card">
+                    <div class="project-image">🐶</div>
+                    <div class="project-content">
+                        <h3>Projeto 3</h3>
+                        <h4>PET ADOPTION</h4>
+                        <p>Quem nunca sonhou em ter um amigo peludo para brincar e cuidar? Bem, com o Pet Adoption, você pode explorar um mundo de fofura e amor animal! Este projeto é uma plataforma de adoção de animais de estimação, onde os usuários podem navegar por uma variedade de animais adoráveis disponíveis para adoção, desde cachorros e gatos até coelhos e hamsters. Com uma interface amigável e fácil de usar, o Pet Adoption permite que os amantes de animais encontrem seu novo melhor amigo de forma rápida e conveniente.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Paulo2589s" class="link-btn">GitHub</a>
+                            <a href="https://github.com/Paulo2589s" class="link-btn link-secondary">Visitar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEÇÃO CONTATO ========== -->
+    <!-- Formulário de contato e informações -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            
+            <div class="contact-content">
+                <!-- Formulário -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="name" 
+                            placeholder="Seu Nome" 
+                            required
+                        >
+                    </div>
+                    
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            id="email" 
+                            placeholder="Seu Email" 
+                            required
+                        >
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea 
+                            id="message" 
+                            placeholder="Sua Mensagem" 
+                            rows="5" 
+                            required
+                        ></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    
+                    <!-- Mensagem de sucesso (oculta por padrão) -->
+                    <div class="success-message" id="successMessage">
+                        ✓ Mensagem enviada com sucesso!
+                    </div>
+                </form>
+
+                <!-- Informações de contato -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:paulo.robertodearaujo2005@gmail.com">paulo.robertodearaujo2005@gmail.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Telefone</h4>
+                        <p><a href="tel:+5511931518676">+55 (11) 93151-8676</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Localização</h4>
+                        <p>São Paulo, Brasil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== RODAPÉ ========== -->
+    <!-- Informações finais da página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Paulo. Todos os direitos reservados.</p>
+        </div>      
+    </footer>
+
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="./script/script.js"></script>
+</body>
+</html>
                     
                     <!-- Experiências -->
                     <div class="experience-section">
